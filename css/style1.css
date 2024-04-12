@@ -1,0 +1,238 @@
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  header {
+    background-image: url('../img/header_background_v1.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 500px; 
+    padding-bottom: 300px; 
+  }
+  
+  .top-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-width: 150px;
+    margin-left: 20px; 
+  }
+  
+  nav a:not(:last-child) {
+    border-right: 1px solid rgba(255, 249, 249, 0.875); 
+  }
+
+  nav a {
+    padding: 10px 50px ;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.banner h1 {
+  padding-top: 200px;
+  padding-bottom: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+  h1, .btn {
+    margin-top: 20px; 
+  }
+
+  main {
+    width: 100%; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+  }
+  
+  .post-block {
+    background-color: #f1f1f1; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    padding-right: 30px;
+    display: flex;
+  }
+
+  .post-title {
+    color:rgb(1,172,172);
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .post-image img {
+    max-width: 250px;
+    height: auto;
+  }
+
+  .post-description {
+    color:rgba(38, 42, 47, 0.681);
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .post-content {
+    flex-grow: 1; 
+    font-size: 15px;
+    padding-left: 20px; 
+  }
+
+  .post-meta {
+    margin-bottom: 10px; 
+    color: rgba(255, 0, 0, 0.863); 
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .post-divider {
+    border-top: 1px solid #ccc;  
+    margin: 10px 0; 
+  }
+  
+  .post-btn {
+    margin-top: 10px; 
+    float: right; 
+    width: 160px; 
+    height: 35px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(1,172,172);
+    border-color:rgb(1,172,172);
+    border-radius: 0;
+  }
+  
+  .right-content {
+    float: right; 
+    width: 30%; 
+    margin-left: 20px; 
+  }
+
+  .post-list  h1 {
+    text-align: right;
+  }
+
+  .contact-form h1 {
+    text-align: right;
+  }
+  
+
+  .btn-top {
+    background-color: rgb(1,172,172); 
+    color: #ffffff; 
+    padding: 15px 50px 15px 50px; 
+    text-decoration: none; 
+    border-radius: 0;
+  }
+  
+
+  .flex-container {
+    display: flex;
+    justify-content: flex-end; 
+  }
+
+  .toolbar {
+    margin-left: auto; 
+  }
+
+  .about  {
+    padding-top: 20px;
+    color:rgba(38, 42, 47, 0.681);
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  .about h1 {
+    text-align: right;
+    padding-top:0px;
+  }
+
+  .about img {
+    max-width: 1000px; 
+    height: auto;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0px;
+    color: rgb(1,172,172);
+    font-size: 15px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: rgb(27, 187, 173);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
+  footer {
+    padding: 20px; 
+    color:rgba(38, 42, 47, 0.681);
+    font-size: 14px;
+  }
+
+  .contact-form h4 {
+    text-align: right;
+    padding: 0px;
+  }
+  .contact-form h1 {
+    text-align: right;
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+
+main h1{
+    color:rgba(0, 0, 0, 0.779);
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-weight: bold;
+} 
+
+main h4{
+    color:rgba(40, 39, 39, 0.812);
+    margin-top: 0px;
+    font-size: 18px;
+}
+
+  #question {
+    height: 150px;
+  }
+  
+  #question, #email, #text, #full-name {
+    border: 1px solid #ababab; 
+  }
